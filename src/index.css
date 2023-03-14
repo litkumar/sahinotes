@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {  
+    margin-left:1rem;
+    margin-right:1rem;
+    padding-top:1rem;
+    padding-right:1rem;
+    border:2px solid lightgray;
+    border-radius:10px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "photo title title"
+      "photo views views"
+      "photo . tick";
+  }
+  
+  .photo { grid-area: photo; position: relative; }
+  
+  .title { grid-area: title; }
+  
+  .views { grid-area: views; display: flex; margin-top: 1rem; }
+  
+  .tick { grid-area: tick;  position:relative; }
+  
+  
