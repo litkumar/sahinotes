@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # sahinotes
 
@@ -33,8 +32,3 @@ https://ik.imagekit.io/3wzfnznig/Screenshot__21_.png?updatedAt=1678637333085
 https://ik.imagekit.io/3wzfnznig/Screenshot__23_.png?updatedAt=1678637333089
 
 ![Logo](https://ik.imagekit.io/3wzfnznig/Screenshot__23_.png?updatedAt=1678637333089)
-=======
-# sahinotes
-
-Check master Branch
->>>>>>> a2c8d29c18cd3b671d3058378552498c80e708a6
